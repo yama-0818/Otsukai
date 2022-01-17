@@ -108,6 +108,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
 -r:"C:/Users/521264/Unity/2021.1.19f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Users/521264/Unity/2021.1.19f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Users/521264/Unity/2021.1.19f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
@@ -301,6 +304,7 @@
 -r:"C:/Users/521264/Unity/2021.1.19f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Users/521264/Unity/2021.1.19f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"C:/Users/521264/Unity/Gakken/Otsukai/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
@@ -340,6 +344,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Yamamoto_Scripts/MoveAnim.cs"
+"Assets/Yamamoto_Scripts/MoveCoin.cs"
 "Assets/Yamamoto_Scripts/MyItem.cs"
 "Assets/Yamamoto_Scripts/OtsukaiMenu.cs"
 "Assets/Yamamoto_Scripts/Seisan.cs"

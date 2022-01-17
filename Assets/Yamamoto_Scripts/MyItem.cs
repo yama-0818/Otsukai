@@ -35,11 +35,14 @@ public class MyItem : MonoBehaviour
 
     public void NextItem()
     {
-        // 最初の呼び出しでなければ、ListのRemove処理をする
+        // 2回目以降であれば、ListのRemove処理をする
         if (!firstSet)
         {
-            // リストの0を削除する
+            // リストの0を削除する(支払い済みの商品を削除)
             itemSystem.item.Remove(itemSystem.item[0]);
+
+            // 赤枠を移動させる(次の商品へ)
+            itemSystem.nextBorder.transform.localPosition += new Vector3(100, 0, 0);
         }
 
         // 画像をitemSystemから取得、反映(表示)
@@ -60,7 +63,7 @@ public class MyItem : MonoBehaviour
 
         // 最初の呼び出し終了
         firstSet = false;
-        
+
         // ログ監視用
         Debug.Log(productImage.sprite.name + priceText[0].text);
     }
